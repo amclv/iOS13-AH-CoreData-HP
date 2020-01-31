@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7E62D223E3B4B400A0F0A2 /* SpellRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E62D123E3B4B400A0F0A2 /* SpellRepresentation.swift */; };
+		1A7E62D423E3B75900A0F0A2 /* SpellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E62D323E3B75900A0F0A2 /* SpellController.swift */; };
 		45D44DF323E1FF820029FA02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D44DF223E1FF820029FA02 /* AppDelegate.swift */; };
 		45D44DF523E1FF820029FA02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D44DF423E1FF820029FA02 /* SceneDelegate.swift */; };
 		45D44DFA23E1FF820029FA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D44DF823E1FF820029FA02 /* Main.storyboard */; };
 		45D44DFC23E1FF860029FA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D44DFB23E1FF860029FA02 /* Assets.xcassets */; };
 		45D44DFF23E1FF860029FA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D44DFD23E1FF860029FA02 /* LaunchScreen.storyboard */; };
+		45D44E5D23E267EB0029FA02 /* SpellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D44E5C23E267EB0029FA02 /* SpellDetailViewController.swift */; };
+		45D44E5F23E268000029FA02 /* SpellListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D44E5E23E268000029FA02 /* SpellListTableViewController.swift */; };
+		45D44E6223E268C70029FA02 /* Spells.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45D44E6023E268C70029FA02 /* Spells.xcdatamodeld */; };
+		45D44E6423E2691B0029FA02 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D44E6323E2691B0029FA02 /* CoreDataStack.swift */; };
+		45D44E6623E26A150029FA02 /* Spell+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D44E6523E26A150029FA02 /* Spell+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7E62D023E3B44C00A0F0A2 /* Spells 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Spells 2.xcdatamodel"; sourceTree = "<group>"; };
+		1A7E62D123E3B4B400A0F0A2 /* SpellRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellRepresentation.swift; sourceTree = "<group>"; };
+		1A7E62D323E3B75900A0F0A2 /* SpellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellController.swift; sourceTree = "<group>"; };
 		45D44DEF23E1FF820029FA02 /* HarryPotter-CoreData-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarryPotter-CoreData-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D44DF223E1FF820029FA02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45D44DF423E1FF820029FA02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +32,11 @@
 		45D44DFB23E1FF860029FA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45D44DFE23E1FF860029FA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45D44E0023E1FF860029FA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D44E5C23E267EB0029FA02 /* SpellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellDetailViewController.swift; sourceTree = "<group>"; };
+		45D44E5E23E268000029FA02 /* SpellListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellListTableViewController.swift; sourceTree = "<group>"; };
+		45D44E6123E268C70029FA02 /* Spells.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spells.xcdatamodel; sourceTree = "<group>"; };
+		45D44E6323E2691B0029FA02 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		45D44E6523E26A150029FA02 /* Spell+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spell+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +85,10 @@
 		45D44E0623E1FF8D0029FA02 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				45D44E6023E268C70029FA02 /* Spells.xcdatamodeld */,
+				45D44E6323E2691B0029FA02 /* CoreDataStack.swift */,
+				45D44E6523E26A150029FA02 /* Spell+Convenience.swift */,
+				1A7E62D123E3B4B400A0F0A2 /* SpellRepresentation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -77,6 +96,8 @@
 		45D44E0723E1FF960029FA02 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				45D44E5C23E267EB0029FA02 /* SpellDetailViewController.swift */,
+				45D44E5E23E268000029FA02 /* SpellListTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -84,6 +105,7 @@
 		45D44E0823E1FF9E0029FA02 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1A7E62D323E3B75900A0F0A2 /* SpellController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -159,8 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D44E6223E268C70029FA02 /* Spells.xcdatamodeld in Sources */,
+				45D44E5F23E268000029FA02 /* SpellListTableViewController.swift in Sources */,
 				45D44DF323E1FF820029FA02 /* AppDelegate.swift in Sources */,
+				45D44E6423E2691B0029FA02 /* CoreDataStack.swift in Sources */,
+				45D44E6623E26A150029FA02 /* Spell+Convenience.swift in Sources */,
+				45D44E5D23E267EB0029FA02 /* SpellDetailViewController.swift in Sources */,
+				1A7E62D423E3B75900A0F0A2 /* SpellController.swift in Sources */,
 				45D44DF523E1FF820029FA02 /* SceneDelegate.swift in Sources */,
+				1A7E62D223E3B4B400A0F0A2 /* SpellRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +334,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SYENEWMJ7;
 				INFOPLIST_FILE = "HarryPotter-CoreData-xcode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flash.HarryPotter-CoreData-xcode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronCleveland.HarryPotter-CoreData-xcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,12 +352,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SYENEWMJ7;
 				INFOPLIST_FILE = "HarryPotter-CoreData-xcode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.flash.HarryPotter-CoreData-xcode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronCleveland.HarryPotter-CoreData-xcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -356,6 +387,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45D44E6023E268C70029FA02 /* Spells.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A7E62D023E3B44C00A0F0A2 /* Spells 2.xcdatamodel */,
+				45D44E6123E268C70029FA02 /* Spells.xcdatamodel */,
+			);
+			currentVersion = 1A7E62D023E3B44C00A0F0A2 /* Spells 2.xcdatamodel */;
+			path = Spells.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 45D44DE723E1FF820029FA02 /* Project object */;
 }
